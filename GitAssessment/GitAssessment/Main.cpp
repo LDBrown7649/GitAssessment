@@ -7,10 +7,10 @@ int main() {
 
 	std::cout << std::endl;
 	// Prints the letters of the alphabet.
+	std::cout << "Printing all the letters of the alphabet:" << std::endl;
 	for (int i = 0; i < 26; i++) {
-		std::cout << (char)(65 + i);
+		std::cout << (char)(97 + i) << std::endl;
 	}
-	std::cout << std::endl;
 
 	return 0;
 }
