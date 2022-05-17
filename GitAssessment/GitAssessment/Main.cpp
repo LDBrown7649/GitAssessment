@@ -7,9 +7,13 @@ int main() {
 
 	std::cout << std::endl;
 	// Prints the letters of the alphabet.
-	std::cout << "Printing all the letters of the alphabet:" << std::endl;
+	std::cout << "Printing all the letters of the alphabet (Lower):" << std::endl;
 	for (int i = 0; i < 26; i++) {
 		std::cout << (char)(97 + i) << std::endl;
+	}
+	std::cout << "Prints all letters in the alphabet (Upper):" << std::endl;
+	for (int i = 0; i < 26; i++) {
+		std::cout << (char)(65 + i) << std::endl;
 	}
 
 	return 0;
